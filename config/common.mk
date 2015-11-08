@@ -40,7 +40,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.setupwizard.network_required=false \
     ro.setupwizard.gservices_delay=-1 \
     net.tethering.noprovisioning=true \
-    persist.sys.dun.override=0
+    persist.sys.dun.override=0 \
+    ro.adb.secure=1
 
 # Include overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/uber/overlay/common
