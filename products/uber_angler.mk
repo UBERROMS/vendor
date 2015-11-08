@@ -2,7 +2,7 @@
 $(call inherit-product, device/huawei/angler/aosp_angler.mk)
 
 # Inherit common product files.
-$(call inherit-product, vendor/uber/products/common.mk)
+$(call inherit-product, vendor/uber/config/common.mk)
 
 # Setup device specific product configuration.
 PRODUCT_NAME := uber_angler
