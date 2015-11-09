@@ -16,6 +16,10 @@ ifeq (uber_angler,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/uber_angler.mk
 endif
 
+ifeq (uber_bullhead,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/uber_bullhead.mk
+endif
+
 ifeq (uber_flounder,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/uber_flounder.mk
 endif
