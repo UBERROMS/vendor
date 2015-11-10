@@ -1,5 +1,5 @@
 # Inherit AOSP device configuration for angler.
-$(call inherit-product, device/lge/bullhead/aosp_angler.mk)
+$(call inherit-product, device/lge/bullhead/aosp_bullhead.mk)
 
 # Inherit common product files.
 $(call inherit-product, vendor/uber/config/common.mk)
