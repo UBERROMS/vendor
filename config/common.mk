@@ -73,4 +73,5 @@ PRODUCT_COPY_FILES += \
 
 # Additional Packages
 PRODUCT_PACKAGES += \
-    Exchange2
+    Exchange2 \
+    LockClock
