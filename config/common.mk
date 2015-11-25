@@ -74,4 +74,5 @@ PRODUCT_COPY_FILES += \
 # Additional Packages
 PRODUCT_PACKAGES += \
     Exchange2 \
-    LockClock
+    LockClock \
+    OmniSwitch
