@@ -1,4 +1,4 @@
-# Inherit AOSP device configuration for angler.
+# Inherit AOSP device configuration for bullhead.
 $(call inherit-product, device/lge/bullhead/aosp_bullhead.mk)
 
 # Inherit common product files.
@@ -13,8 +13,8 @@ PRODUCT_MANUFACTURER := LGE
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=bullhead \
-    BUILD_FINGERPRINT=google/bullhead/bullhead:6.0.1/MMB29P/2473553:user/release-keys \
-    PRIVATE_BUILD_DESC="bullhead-user 6.0.1 MMB29P 2473553 release-keys"
+    BUILD_FINGERPRINT=google/bullhead/bullhead:6.0.1/MMB29Q/2480792:user/release-keys \
+    PRIVATE_BUILD_DESC="bullhead-user 6.0.1 MMB29Q 2480792 release-keys"
 
 # Boot animation
 PRODUCT_COPY_FILES += \
