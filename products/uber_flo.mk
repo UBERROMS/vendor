@@ -26,10 +26,7 @@ PRODUCT_MODEL := Nexus 7
 PRODUCT_MANUFACTURER := asus
 
 # Device Fingerprint
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME=razor \
-    BUILD_FINGERPRINT=google/razor/flo:6.0.1/MOB30D/2704746:user/release-keys \
-    PRIVATE_BUILD_DESC="razor-user 6.0.1 MOB30D 2704746 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME="flo" BUILD_FINGERPRINT="google/flo/flo:6.0.1/MOB30M/2862625:user/release-keys" PRIVATE_BUILD_DESC="flo-user 6.0.1 MOB30M 2862625 release-keys"
 
 # Boot Animation
 PRODUCT_COPY_FILES += \
