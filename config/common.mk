@@ -75,4 +75,5 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     Exchange2 \
     LockClock \
-    OmniSwitch
+    OmniSwitch \
+    masquerade
