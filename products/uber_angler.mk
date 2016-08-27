@@ -13,8 +13,8 @@ PRODUCT_MANUFACTURER := Huawei
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=angler \
-    BUILD_FINGERPRINT=google/angler/angler:6.0.1/MTC20F/3031278:user/release-keys \
-    PRIVATE_BUILD_DESC="angler-user 6.0.1 MTC20F 3031278 release-keys"
+    BUILD_FINGERPRINT=google/angler/angler:7.0.0/NRD90M/3085278:user/release-keys \
+    PRIVATE_BUILD_DESC="angler-user 7.0.0 NRD90M 3085278 release-keys" 
 
 # Boot animation
 PRODUCT_COPY_FILES += \
