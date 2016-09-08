@@ -75,5 +75,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     Exchange2 \
     LockClock \
+    masquerade \
     OmniSwitch \
-    masquerade
+    Snap
+    
