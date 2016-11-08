@@ -25,8 +25,8 @@ PRODUCT_MODEL := Nexus 6
 PRODUCT_MANUFACTURER := motorola
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=shamu \
-    BUILD_FINGERPRINT=google/shamu/shamu:7.0.0/NBD90Z/3264873:user/release-keys \
-	PRIVATE_BUILD_DESC="shamu-user 7.0.0 NBD90Z 3264873 release-keys" 
+    BUILD_FINGERPRINT=google/shamu/shamu:7.0/NBD91P/3397968:user/release-keys \
+	PRIVATE_BUILD_DESC="shamu-user 7.0 NBD91P 3397968 release-keys" 
 # Boot Animation
 PRODUCT_COPY_FILES += \
     vendor/uber/prebuilt/bootanimation/bootanimation_1080.zip:system/media/bootanimation.zip
