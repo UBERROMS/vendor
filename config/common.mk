@@ -76,7 +76,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     Exchange2 \
     LockClock \
-    masquerade
+    masquerade \
+    QuickSearchBox
 
 # Squisher Location
 SQUISHER_SCRIPT := vendor/uber/tools/squisher
