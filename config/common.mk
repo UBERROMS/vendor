@@ -24,7 +24,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # UBER property overides
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sys.fw.bg_apps_limit=20 \
-    pm.sleep.mode=1 \
     wifi.supplicant_scan_interval=180 \
     windowsmgr.max_events_per_sec=150 \
     debug.performance.tuning=1 \
@@ -43,6 +42,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.dun.override=0 \
     ro.adb.secure=1 \
     ro.substratum.verified=true
+
+# Bring in google assistant
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.opa.eligible_device=true
 
 # Include overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/uber/overlay/common
