@@ -80,7 +80,8 @@ PRODUCT_PACKAGES += \
     Exchange2 \
     LockClock \
     masquerade \
-    QuickSearchBox
+    QuickSearchBox \
+    WebViewGoogle
 
 # Squisher Location
 SQUISHER_SCRIPT := vendor/uber/tools/squisher
