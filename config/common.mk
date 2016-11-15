@@ -44,8 +44,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.substratum.verified=true
 
 # Bring in google assistant
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.opa.eligible_device=true
+# PRODUCT_PROPERTY_OVERRIDES += \
+#    ro.opa.eligible_device=true
 
 # Include overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/uber/overlay/common
@@ -81,7 +81,7 @@ PRODUCT_PACKAGES += \
     LockClock \
     masquerade \
     QuickSearchBox \
-    WebViewGoogle
+    GoogleWebView
 
 # Squisher Location
 SQUISHER_SCRIPT := vendor/uber/tools/squisher
