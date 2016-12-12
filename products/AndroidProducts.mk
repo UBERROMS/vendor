@@ -20,20 +20,12 @@ ifeq (uber_bullhead,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/uber_bullhead.mk
 endif
 
-ifeq (uber_flo,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/uber_flo.mk
-endif
-
-ifeq (uber_flounder,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/uber_flounder.mk
-endif
-
 ifeq (uber_hammerhead,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/uber_hammerhead.mk
 endif
 
-ifeq (uber_mako,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/uber_mako.mk
+ifeq (uber_marlin,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/uber_marlin.mk
 endif
 
 ifeq (uber_shamu,$(TARGET_PRODUCT))
