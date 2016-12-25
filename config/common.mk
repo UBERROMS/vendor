@@ -44,9 +44,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.adb.secure=1 \
     ro.substratum.verified=true
 
-# Bring in google assistant
-# PRODUCT_PROPERTY_OVERRIDES += \
-#    ro.opa.eligible_device=true
+# Include Substratum unless SUBSTRATUM is set to false
+ifneq ($(SUBSTRATUM),false)
+    PRODUCT_PACKAGES += \
+        Substratum
+endif
 
 # Include overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/uber/overlay/common
