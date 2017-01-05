@@ -80,11 +80,12 @@ PRODUCT_COPY_FILES += \
 
 # Additional Packages
 PRODUCT_PACKAGES += \
+    DeskClock \
     Exchange2 \
+    GoogleWebView \
     LockClock \
     masquerade \
-    QuickSearchBox \
-    GoogleWebView
+    QuickSearchBox
 
 # Include explicitly to work around Facelock issues
 PRODUCT_PACKAGES += \
