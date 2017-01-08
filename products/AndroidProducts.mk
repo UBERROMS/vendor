@@ -28,6 +28,10 @@ ifeq (uber_marlin,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/uber_marlin.mk
 endif
 
+ifeq (uber_sailfish,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/uber_sailfish.mk
+endif
+
 ifeq (uber_shamu,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/uber_shamu.mk
 endif
