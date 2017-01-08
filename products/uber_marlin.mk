@@ -13,8 +13,8 @@ PRODUCT_MANUFACTURER := Google
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=marlin \
-    BUILD_FINGERPRINT=google/marlin/marlin:7.1.1/NMF26O/3514931:user/release-keys \
-    PRIVATE_BUILD_DESC="marlin-user 7.1.1 NMF26O 3514931 release-keys"
+    BUILD_FINGERPRINT=google/marlin/marlin:7.1.1/NMF26V/3562348:user/release-keys \
+    PRIVATE_BUILD_DESC="marlin-user 7.1.1 NMF26V 3562348 release-keys"
 
 # Boot animation
 PRODUCT_COPY_FILES += \
