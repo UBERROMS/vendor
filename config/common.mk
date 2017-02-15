@@ -54,10 +54,6 @@ endif
 PRODUCT_PACKAGE_OVERLAYS += vendor/uber/overlay/common
 PRODUCT_PACKAGE_OVERLAYS += vendor/uber/overlay/$(TARGET_PRODUCT)
 
-# APN
-PRODUCT_COPY_FILES += \
-    vendor/uber/prebuilt/etc/apns-conf.xml:system/etc/apns-conf.xml
-
 # Enable SIP+VoIP
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml
@@ -72,11 +68,6 @@ PRODUCT_COPY_FILES +=  \
     vendor/uber/prebuilt/vendor/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
     vendor/uber/prebuilt/vendor/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd
 endif
-# Backuptool support
-PRODUCT_COPY_FILES += \
-    vendor/uber/prebuilt/addon.d/50-uber.sh:system/addon.d/50-uber.sh \
-    vendor/uber/prebuilt/bin/backuptool.functions:system/bin/backuptool.functions \
-    vendor/uber/prebuilt/bin/backuptool.sh:system/bin/backuptool.sh
 
 # Additional Packages
 PRODUCT_PACKAGES += \
