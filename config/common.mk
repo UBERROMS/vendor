@@ -42,7 +42,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     net.tethering.noprovisioning=true \
     persist.sys.dun.override=0 \
     ro.adb.secure=1 \
-    ro.substratum.verified=true
+    ro.substratum.verified=true \
+    ro.opa.eligible_device=true
 
 # Include Substratum unless SUBSTRATUM is set to false
 ifneq ($(SUBSTRATUM),false)
