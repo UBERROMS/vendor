@@ -79,6 +79,41 @@ PRODUCT_PACKAGES += \
     masquerade \
     QuickSearchBox
 
+# We don't want more than nano
+GAPPS_VARIANT := nano
+
+# Define Gapps Packages
+# Google Maps
+PRODUCT_PACKAGES += \
+        Maps
+
+# Google Camera
+PRODUCT_PACKAGES += \
+        GoogleCamera
+
+# Google Messenger
+PRODUCT_PACKAGES += \
+        PrebuiltBugle
+
+GAPPS_FORCE_MMS_OVERRIDES := true
+
+# Google Music
+PRODUCT_PACKAGES += \
+        Music2
+
+# Project Fi
+PRODUCT_PACKAGES += \
+        GCS \
+        ProjectFi
+
+# Exclude Google Package Installer and HotwordEnrollment
+GAPPS_EXCLUDED_PACKAGES +=  \
+        GooglePackageInstaller \
+        Hotword
+
+# include gapps
+$(call inherit-product, vendor/google/build/opengapps-packages.mk)
+
 # Include explicitly to work around Facelock issues
 PRODUCT_PACKAGES += \
     libprotobuf-cpp-full
