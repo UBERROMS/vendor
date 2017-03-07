@@ -43,7 +43,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.dun.override=0 \
     ro.adb.secure=1 \
     ro.substratum.verified=true \
-    ro.masquerade.buildtype.check=true \
     ro.opa.eligible_device=true
 
 # Include Substratum unless SUBSTRATUM is set to false
@@ -77,8 +76,8 @@ PRODUCT_PACKAGES += \
     Exchange2 \
     GoogleWebView \
     LockClock \
-    masquerade \
-    QuickSearchBox
+    QuickSearchBox \
+    ThemeInterfacer
 
 # We don't want more than nano
 GAPPS_VARIANT := nano
