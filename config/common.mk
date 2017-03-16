@@ -1,4 +1,4 @@
-# Copyright (C) 2015 UBER Project
+# Copyright (C) 2015-17 UBER Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -82,6 +82,9 @@ PRODUCT_PACKAGES += \
 # Include explicitly to work around Facelock issues
 PRODUCT_PACKAGES += \
     libprotobuf-cpp-full
+
+# Don't compile SystemUITests
+EXCLUDE_SYSTEMUI_TESTS := true
 
 # Squisher Location
 SQUISHER_SCRIPT := vendor/uber/tools/squisher
