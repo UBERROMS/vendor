@@ -74,10 +74,10 @@ endif
 PRODUCT_PACKAGES += \
     DeskClock \
     Exchange2 \
-    GoogleWebView \
     LockClock \
     QuickSearchBox \
-    ThemeInterfacer
+    ThemeInterfacer \
+    webview
 
 # Include explicitly to work around Facelock issues
 PRODUCT_PACKAGES += \
