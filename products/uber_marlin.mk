@@ -17,7 +17,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="marlin-user 7.1.2 N2G47E 3766409 release-keys"
 
 
-ro.build.description ro.build.fingerprint
 # Boot animation
 PRODUCT_COPY_FILES += \
     vendor/uber/prebuilt/bootanimation/bootanimation_1080.zip:system/media/bootanimation.zip
