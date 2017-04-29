@@ -76,7 +76,6 @@ endif
 # Additional Packages
 PRODUCT_PACKAGES += \
     DeskClock \
-    Exchange2 \
     LockClock \
     QuickSearchBox \
     ThemeInterfacer \
